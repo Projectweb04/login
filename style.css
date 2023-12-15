@@ -1,0 +1,99 @@
+body {
+  background: rgb(219, 228, 238);
+  background: radial-gradient(
+    circle,
+    rgba(219, 228, 238, 1) 0%,
+    rgba(129, 164, 205, 1) 100%
+  );
+}
+
+.navbar-brand {
+  font-family: "Fugaz One", sans-serif;
+}
+
+.jumbotron {
+  padding: 8rem 1rem;
+  min-height: max-content;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(image/bg\ 1.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  font-family: "Fugaz One", sans-serif;
+}
+
+.jumbotron h1 {
+  font-family: "Fugaz One", sans-serif;
+  padding-top: 2rem;
+}
+
+.jumbotron p {
+  font-family: "Mulish", sans-serif;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+/* ABOUT US */
+#about {
+}
+
+.typing-slider {
+  display: inline-block;
+}
+
+.text {
+  font-size: 3em;
+  letter-spacing: 10px;
+  font-family: "Fugaz One", sans-serif;
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(8), cursor 0.5s step-end infinite alternate;
+}
+
+.row {
+  font-family: "Mulish", sans-serif;
+}
+
+/* cursor blinking */
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.nested-leave-active .text {
+  transition: all 0.3s ease-in-out;
+}
+
+/* typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+/* END ABOUT US */
+
+/* CONTACT */
+#contact {
+}
+
+#contact p {
+  font-family: "Mulish", sans-serif;
+}
+
+.item img {
+  padding-top: 1em;
+  max-width: 90%;
+  max-height: 90%;
+}
+/* END CONTACT */
+
+/* MEMORIES */
+#memories {
+}
+/* END MEMORIES */
